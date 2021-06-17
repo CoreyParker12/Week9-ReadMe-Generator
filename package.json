@@ -1,0 +1,22 @@
+{
+  "name": "week9-readme-generator",
+  "version": "1.0.0",
+  "description": "Professional ReadMe Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoreyParker12/Week9-ReadMe-Generator.git"
+  },
+  "author": "Corey Parker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoreyParker12/Week9-ReadMe-Generator/issues"
+  },
+  "homepage": "https://github.com/CoreyParker12/Week9-ReadMe-Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.1.1"
+  }
+}
