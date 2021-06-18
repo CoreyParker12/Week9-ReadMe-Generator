@@ -2,6 +2,7 @@
 
 const inquirer = require('inquirer');
 const fs = require('fs');
+const generateMarkdown = require('./utils/generateMarkdown.js')
 
 // Array of questions to be passed to the user
 
@@ -48,7 +49,10 @@ const questions = () => {
                 name: 'Tests',
                 message: 'What are the test instructions?',
             },
-        ]);
+        ])
+    .then((answers) => {
+        writeToFile('README.md', generateMarkdown(answers));
+    });
 }
 
 // TODO: Create a function to write README file
