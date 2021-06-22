@@ -73,9 +73,9 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {
-    questions();
-}
+// function init() {
+//     questions();
+// }
 
 // Function call to initialize app
-init();
+questions();

@@ -44,7 +44,8 @@ ${data.tests}
 
 # Questions
 
-${data.questions}
+${data.github}
+${data.email}
 `;
 }
 
