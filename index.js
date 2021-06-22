@@ -21,12 +21,12 @@ const questions = () => {
             },
             {
                 type: 'input',
-                name: 'ToC',
+                name: 'tableOfContents',
                 message: 'Table of Contents? ',
             },
             {
                 type: 'input',
-                name: 'Iinstallation',
+                name: 'installation',
                 message: 'What are the installation instructions? ',
             },
             {
@@ -48,6 +48,16 @@ const questions = () => {
                 type: 'input',
                 name: 'tests',
                 message: 'What are the test instructions?',
+            },
+            {
+                type: 'input',
+                name: 'github',
+                message: 'What is your github username?',
+            },
+            {
+                type: 'input',
+                name: 'email',
+                message: 'What is your email address?',
             },
         ])
     .then((answers) => {
