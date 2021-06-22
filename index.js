@@ -21,11 +21,6 @@ const questions = () => {
             },
             {
                 type: 'input',
-                name: 'tableOfContents',
-                message: 'Table of Contents? ',
-            },
-            {
-                type: 'input',
                 name: 'installation',
                 message: 'What are the installation instructions? ',
             },
