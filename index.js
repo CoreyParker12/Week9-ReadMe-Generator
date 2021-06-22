@@ -11,12 +11,12 @@ const questions = () => {
         .prompt([
             {
                 type: 'input',
-                name: 'Project Title',
+                name: 'title',
                 message: 'Project title? ',
             },
             {
                 type: 'input',
-                name: 'Project Description',
+                name: 'description',
                 message: 'Project description? ',
             },
             {
@@ -26,27 +26,27 @@ const questions = () => {
             },
             {
                 type: 'input',
-                name: 'Installation',
+                name: 'Iinstallation',
                 message: 'What are the installation instructions? ',
             },
             {
                 type: 'input',
-                name: 'Usage',
+                name: 'usage',
                 message: 'How will this project be used? ',
             },
             {
                 type: 'input',
-                name: 'License',
+                name: 'license',
                 message: 'Please select which license you are using:',
             },
             {
                 type: 'input',
-                name: 'Contributing',
+                name: 'contributing',
                 message: 'What are the contribution guidelines?',
             },
             {
                 type: 'input',
-                name: 'Tests',
+                name: 'tests',
                 message: 'What are the test instructions?',
             },
         ])
