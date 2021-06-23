@@ -1,10 +1,10 @@
-# gdgdgsdfg  
+# gdsgsdfg  
 
-  [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+  [![License](https://img.shields.io/badge/License-GPLv2-blue.svg)](https://opensource.org/licenses/GPLv2)
 
 ## Project Description
 
-  dsgsd
+  dsfgsdfgsd
 
 ## Table of Contents
 
@@ -17,25 +17,25 @@
 
 ## Installation Instrutions
 
-  gsdfgsdf
+  gsdfgsd
 
 ## Usage
 
-  gsdfgsdfg
+  dsfgsdfg
 
 ## License
 
-  This project is licensed under the terms of the MIT license.  
+  This project is licensed under the terms of the GPLv2 license.  
 
 ## Contributing
 
-sdgsdfg
+dsfgsdfgsd
 
 ## Tests
 
-sdfgsdfg
+sdfgsdfgsd
 
 ## Questions
 
-My GitHub: [sdfgsdfg](https://github.com/sdfgsdfg)  
-Email: dsfgs
+My GitHub: [dsfgsdfg](https://github.com/dsfgsdfg)  
+Email: dsfgdsgd
