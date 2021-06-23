@@ -30,9 +30,10 @@ const questions = () => {
                 message: 'How will this project be used? ',
             },
             {
-                type: 'input',
+                type: 'list',
                 name: 'license',
                 message: 'Please select which license you are using:',
+                choices: ['MIT', 'Harvard', 'Silly'],
             },
             {
                 type: 'input',

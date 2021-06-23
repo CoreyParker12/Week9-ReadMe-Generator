@@ -1,6 +1,12 @@
+// REFERENCES
+// For license badge
+// 1. https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
+
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -12,7 +18,9 @@ function renderLicenseSection(license) {}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `# ${data.title}  
+
+  [![License](https://img.shields.io/badge/License-${data.license}-blue.svg)](https://opensource.org/licenses/${data.license})
 
 ## Project Description
 
@@ -37,7 +45,7 @@ function generateMarkdown(data) {
 
 ## License
 
-  ${data.license}
+  This project is licensed under the terms of the ${data.license} license.  
 
 ## Contributing
 
@@ -49,8 +57,8 @@ ${data.tests}
 
 ## Questions
 
-${data.github}
-${data.email}
+My GitHub: [${data.github}](https://github.com/${data.github})  
+Email: ${data.email}
 `;
 }
 
