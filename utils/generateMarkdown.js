@@ -46,6 +46,8 @@ ${data.tests}
 
 My GitHub: [${data.github}](https://github.com/${data.github})  
 Email: ${data.email}
+
+[Video Walkthrough](https://drive.google.com/file/d/1CWS4xZKjWYAZikvwuJEVe5KKXcTorMPz/view?usp=sharing)
 `;
 }
 
